@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, send_file, url_for
+from flask import Flask
 from flask_autoindex import AutoIndex
 
 app = Flask(__name__, template_folder='.')
